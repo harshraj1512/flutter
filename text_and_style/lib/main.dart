@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         
-        title: Text('Flutter Conatainer'),
+        title: Text('Flutter Conatainers'),
       ),
       body: Text("My name is flutter", style: TextStyle(
         fontSize: 25,
