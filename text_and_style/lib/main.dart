@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
         
         title: Text('Flutter Conatainers'),
       ),
-      body: Text("My name is flutter", style: TextStyle(
+      body: Text("My name is flutters", style: TextStyle(
         fontSize: 25,
         fontWeight: FontWeight.bold,
         color: Colors.blueAccent
