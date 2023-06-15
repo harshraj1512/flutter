@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         
-        // the App.build method, and use it to set our appbar title.
+        //  use it to set our appbar title.
         title: Text('Flutter Conatainer'),
       ),
        body: Center(
