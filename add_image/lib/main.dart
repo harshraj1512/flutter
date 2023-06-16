@@ -43,6 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Container(
           width: 200,
           height: 200,
+          // image
           child: Image.asset('assets/images/pikachu.jpg'),
         ),
        ),
