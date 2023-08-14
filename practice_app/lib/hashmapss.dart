@@ -1,7 +1,7 @@
 
 void main(){
 
-  // ignore: unused_local_variable
+  // ignore: unused local variable
   var map_name = {
     "Key1" : 'Value1',
     "Key2" : 2,
