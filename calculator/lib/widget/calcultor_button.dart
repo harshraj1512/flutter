@@ -1,7 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class CalculatorButton extends StatelessWidget {
-  const CalculatorButton({super.key});
+  final String text;
+  
+  
+
+  const CalculatorButton({
+    required this.text,
+    
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -11,15 +19,20 @@ class CalculatorButton extends StatelessWidget {
                     width: 70,
                     height:70,
                     child: TextButton(
-                      onPressed:(){} ,
-                      child: Text('9'),
+                      onPressed:() => {} ,
+                      child: Text(
+                        text,
+                        style: GoogleFonts.nosifer(
+                          fontSize: 24,
+                          color: Colors.white,
+                        ),
+                      ),
                       style: TextButton.styleFrom(
-                        foregroundColor: Colors.white,
+                        //foregroundColor: Colors.white,
                         backgroundColor: Colors.lightGreen,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(15),
                         ),
-                        textStyle: TextStyle(fontSize: 24)
                       ),
                     ),
                   ),
